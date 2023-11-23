@@ -1,9 +1,10 @@
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
-import { shoes,statistics } from "../constants";
+import { shoes, statistics } from "../constants";
 import { bigShoe3 } from "../assets/images";
 import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
+
 
 
 const Hero = () => {
@@ -25,17 +26,18 @@ const Hero = () => {
           and innovation for your
           active life.
         </p>
+
         <Button label="Shop now" iconURL={arrowRight} />
-        <div className="flex justify-start items-top flex-wrap w-full mt-20 gap-16 max-sm:gap-2 max-sm:mb-4">
+        <div className="flex justify-center items-start flex-wrap w-full mt-20 gap-16">
+          {statistics.map((stat,index) => (
+            <div key={stat.label} className="mb-10">
+              <p className="text-4xl max-sm:text-3xl font-palanquin font-bold">{stat.value}</p>
+              <p className="font-montserrat leading-7 text-slate-gray">{stat.label}</p>
+            </div>
 
-          {statistics.map((stat,index)=>(
-              <div key={stat.label}>
-               <p className="text-4xl font-palanquin font-bold max-sm:text-1xl">{stat.value}</p>
-               <p className="leading-7 font-montserrat text-slate-gray">{stat.label}</p>
-              </div>
           ))}
-
         </div>
+
       </div>
 
       {/* Right Side of Hero Component */}

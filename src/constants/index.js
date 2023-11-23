@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7,shoe8, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -8,6 +8,9 @@ export const navLinks = [
     { href: "#contact-us", label: "Contact Us" },
 ];
 
+export const popular_product = [
+    { image: shoe7 }
+];
 export const shoes = [
     {
         thumbnail: thumbnailShoe1,
@@ -28,31 +31,7 @@ export const statistics = [
     { value: '500+', label: 'Shops' },
     { value: '250k+', label: 'Customers' },
 ];
-
-export const products = [
-    {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
-    },
-    {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
-    },
-    {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
-    },
-    {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
-    },
-];
-
-export const services = [
+export const service = [
     {
         imgURL: truckFast,
         label: "Free shipping",
@@ -69,6 +48,30 @@ export const services = [
         subtext: "Our dedicated team is here to assist you every step of the way."
     },
 ];
+export const products = [
+    {
+        imgURL: shoe4,
+        name: "Nike Air Jordan-01",
+        price: "$198.20",
+    },
+    {
+        imgURL: shoe5,
+        name: "Nike Air Jordan-10",
+        price: "$250.20",
+    },
+    {
+        imgURL: shoe6,
+        name: "Nike Air Jordan-100",
+        price: "$280.20",
+    },
+    {
+        imgURL: shoe7,
+        name: "Nike Air Jordan-001",
+        price: "$295.20",
+    },
+];
+
+
 
 export const reviews = [
     {
