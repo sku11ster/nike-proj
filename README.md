@@ -1,2 +1,2 @@
 # Dummy Nike Project Using Reactjs
-Replicating a Nike website.
+Replicated a Nike website from a Youtuber.
